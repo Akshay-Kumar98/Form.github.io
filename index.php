@@ -1,17 +1,17 @@
 <?php
 
-$name = $_GET['fname'];
+$name = $_POST['fname'];
 
-$last = $_GET['lname'];
+$last = $_POST['lname'];
 
-$email = $_GET['smail'];
+$email = $_POST['smail'];
 
 
-$phone = $_GET['phone'];
+$phone = $_POST['phone'];
 
-$sub = $_GET['subject'];
+$sub = $_POST['subject'];
 
-$message = $_GET['query'];
+$message = $_POST['query'];
 
 $subject = " Test Query For Website";
 
